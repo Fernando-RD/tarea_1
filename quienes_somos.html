@@ -1,0 +1,77 @@
+     <!DOCTYPE html>
+     <html>
+         <!-- Empezamos con el head. Todas las páginas web deberían empezar siempre con este código de <!DOCTYPE html>, y en el <head> definimos el charset,
+         viewport y le damos un Titulo, que aparece en la pestaña del navegador. -->
+         <head>
+             <meta charset="UTF-8">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+             <title>Quiénes somos</title>
+             <link rel="icon" type="image/x-icon" href="icon/favicon.ico">
+         </head>
+         <body bgcolor="#006C8F">
+             <table align="center" border="2" cellspacing="0" cellspadding="0" bordercolor="#OOBBDD">
+                 <!-- el tamaño y estilo de las celdas las definimos en cada td (celda de columna). Siempre definimos las líneas con tr y las columnas con td
+                 anidadas dentro de las tr. width indica el ancho y height el alto de la celda. Si definimos un bgcolor en una td, este tiene prioridad frente
+                 al bgcolor de table y, por lo tanto, se aplica el bgcolor del td. -->
+                 <tr height="200px">
+                     <td width="200px" bgcolor="white" align="center">
+                         <a href="index.html">
+                         <img src="img/logo.png" alt="logo" height="200">
+                         </a>
+                     </td>
+                     <td width="800px" bgcolor="#b4830f" align="center">
+                         <font face="arial" color="white">
+                         <h1><font size="40">UNIR FP</font></h1>
+                         <p><font style="line-height:10pt; font-size:30pt">Tu mejor elección</font></p>
+                         </font>
+                     </td>
+                 </tr>
+                 <!-- rowspan es una etiqueta que indica que esa celda td va a ocupar 5 líneas, empezando por esta y hacia abajo. En este caso no utilizamos la
+                 etiqueta colspan, pero es similar, solo que hacemos que una celda ocupe varias columnas. -->
+                 <tr>
+                     <td width="200px" height="100px" bgcolor="#b4830f" align="center">
+                         <a href="quienes_somos.html" style="color:white"><img src="icon/quienes_somos.png" height="25px"><br>QUIÉNES SOMOS</a>
+                     </td>
+                     <!-- Dentro de esta etiqueta (la que tiene la propiedad "rowspan"), es en la que colocamos los diferentes contenidos de los contenidos de
+                     la web (el video en index, los contenidos de "Quienes somos", etc) -->
+                     <td align="center" rowspan="5">
+                        <font face="arial" color="white">
+                        <h1>UNIR Formación Profesional</h1>
+                        <p>Unir Formación Profesional es la marca que comercializa los titulos oficiales de FP del Grupo PROEDUCA, líder en educación superior online de habla hispana y promotor de UNIR, la Universidad en internet.
+                        <br>En UNIR FP estamos comprometidos con tu empleo.
+                        <br>Preparamos a los profesionales del presente y del futuro mediante una formación práctica y totalmente actualizada, adaptada a las necesidades del mercado y orientada a conseguir resultados desde el primer día.
+                        </p>
+                        <img src="img/foto_unir.jpg" alt="foto_unir" height="300px" width="300px">
+                     </td>
+                 </tr>
+                 <tr>
+                     <td width="200px" height="100px" bgcolor="#b4830f" align="center">
+                         <a href="titulaciones.html" style="color:white"><img src="icon/titulaciones.png" height="25px"><br>TITULACIONES</a>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td width="200px" height="100px" bgcolor="#b4830f" align="center">
+                         <a href="profesorado.html" style="color:white"><img src="icon/profesorado.png" height="25px"><br>PROFESORADO</a>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td width="200px" height="100px" bgcolor="#b4830f" align="center">
+                         <a href="horarios.html" style="color:white"><img src="icon/horarios.png" height="25px"><br>HORARIOS</a>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td width="200px" height="100px" bgcolor="#b4830f" align="center">
+                         <a href="donde_estamos.html" style="color:white"><img src="icon/donde_estamos.png" height="25px"><br>DÓNDE ESTAMOS</a>
+                     </td>
+                 </tr>
+                 <tfoot>
+                 <tr>
+                     <td colspan="2" height="20px" align="center" bgcolor="#333333">
+                         <font color="white">@Copyright, creado por los alumnos de UNIR FP Curso 23-24</font>
+                     </td>
+                 </tr>
+                 </tfoot>
+     
+             </table>
+         </body>
+     </html>
